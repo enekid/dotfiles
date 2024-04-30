@@ -1,0 +1,11 @@
+if [ -f ~/.config/shellrc/.functions ]; then
+  source ~/.config/shellrc/.functions
+fi
+
+if [ -f ~/.config/shellrc/.env ]; then
+  source ~/.config/shellrc/.env
+fi
+
+if [ -f ~/.config/shellrc/.aliases ]; then
+  source ~/.config/shellrc/.aliases
+fi
