@@ -1,0 +1,12 @@
+{
+    "mapping": {
+        "1,86,1": [
+            "Shift_L",
+            "keyboard"
+        ],
+        "1,42,1": [
+            "Escape",
+            "keyboard"
+        ]
+    }
+}

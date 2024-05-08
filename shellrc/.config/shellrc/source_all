@@ -9,3 +9,8 @@ fi
 if [ -f ~/.config/shellrc/.aliases ]; then
   source ~/.config/shellrc/.aliases
 fi
+
+if [ -f ~/.config/shellrc/.doofinder ]; then
+  source ~/.config/shellrc/.doofinder
+fi
+

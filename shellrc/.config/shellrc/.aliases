@@ -10,6 +10,7 @@ alias -- -="cd -"
 
 # Directory shortcuts
 alias cdf="cd ~/fun"
+alias cdfc="cd ~/fun/code"
 alias cddl="cd ~/Downloads"
 alias cdde="cd ~/Desktop"
 
@@ -79,3 +80,9 @@ alias updatestarship="curl -sS https://starship.rs/install.sh | sh"
 # apps shortcuts
 alias lg="lazygit"
 alias nv="nvim"
+
+if [[ "$OS" == "Linux" ]]
+then 
+	alias xclip="xclip -sel clip"
+fi
+

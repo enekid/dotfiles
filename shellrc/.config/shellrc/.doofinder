@@ -1,0 +1,13 @@
+export DOOFINDER_PROJECTS_HOME="$HOME/work/code"
+export DF_MEGASCRIPT_COMMAND="$DOOFINDER_PROJECTS_HOME/dfcommon/bin/megascript.sh"
+
+alias cdw="cd $HOME/work"
+alias cdwc="cd $DOOFINDER_PROJECTS_HOME"
+alias cdwl="cd $DOOFINDER_PROJECTS_HOME/live-layer"
+
+alias dflup="$DF_MEGASCRIPT_COMMAND -p layer"
+alias dflrestore="$DF_MEGASCRIPT_COMMAND -b -p layer"
+
+alias dfup="$DF_MEGASCRIPT_COMMAND"
+alias dfdown=". $DF_MEGASCRIPT_COMMAND -s"
+alias dfrestore="$DF_MEGASCRIPT_COMMAND -b"

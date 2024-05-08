@@ -1,6 +1,14 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+if [ -f ~/.config/shellrc/source_all ]; then
+  source ~/.config/shellrc/source_all
+fi
+
+if [ -f ~/.zsh_aliases ]; then
+  source ~/.zsh_aliases
+fi
+
 # Path to your oh-my-zsh installation.
 export ZSH="$XDG_CONFIG_HOME/oh-my-zsh"
 
@@ -90,14 +98,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
-
-if [ -f ~/.config/shellrc/source_all ]; then
-  source ~/.config/shellrc/source_all
-fi
-
-if [ -f ~/.config/zsh/.zsh_aliases ]; then
-  source ~/.config/zsh/.zsh_aliases
-fi
 
 eval "$(starship init zsh)"
 

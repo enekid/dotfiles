@@ -1,2 +1,0 @@
-# Manage configs
-alias reloadzsh="source $ZDOTDIR/.zshrc"
