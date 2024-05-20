@@ -19,6 +19,7 @@ brew install fzf
 brew install git
 brew install git-extras
 brew install git-flow
+brew install jq
 brew install jesseduffield/lazygit/lazygit
 brew install nvim
 brew install ripgrep
