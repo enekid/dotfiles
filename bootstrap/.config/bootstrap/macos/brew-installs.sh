@@ -27,6 +27,7 @@ brew install stow
 brew install tmux
 brew install tree
 brew install wget
+brew install koekeishiya/formulae/yabai
 brew install zoxide
 
 echo "Install Apps..."
